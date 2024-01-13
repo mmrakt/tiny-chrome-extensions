@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "version": "0.1.0",
+  "name": "weblio focus input",
+  "description": "enable focusing input for weblio",
+  "content_scripts": [
+    {
+      "matches": ["https://ejje.weblio.jp/*"],
+      "js": ["index.js"]
+    }
+  ],
+  "permissions": ["activeTab"]
+}

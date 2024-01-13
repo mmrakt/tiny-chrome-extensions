@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "version": "0.1.0",
+  "name": "phind prohibit enter submit",
+  "description": "Prohibit submit by enter in phind",
+  "content_scripts": [
+    {
+      "matches": ["https://www.phind.com/*"],
+      "js": ["index.js"]
+    }
+  ],
+  "permissions": ["activeTab"]
+}
